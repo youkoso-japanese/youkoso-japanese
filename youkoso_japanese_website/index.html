@@ -1,0 +1,248 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <title>Youkoso Japanese Language Institute</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="dark" data-page="home">
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Youkoso home">
+      <img src="assets/img/logo-placeholder.svg" alt="Youkoso logo">
+      <div>
+        <strong>YOUKOSO</strong>
+        <span>Japanese Language Institute</span>
+      </div>
+    </a>
+    <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
+      <a href="courses.html" data-nav="courses" data-i18n="nav_courses">Courses</a>
+      <a href="gallery.html" data-nav="gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="papers.html" data-nav="papers" data-i18n="nav_papers">Papers</a>
+      <a href="registration.html" data-nav="register" data-i18n="nav_register">Registration</a>
+      <a href="admin.html" data-nav="admin" data-i18n="nav_admin">Admin</a>
+    </nav>
+    <div class="nav-actions">
+      <select id="langPicker" class="icon-btn" style="width:auto;padding:0 12px;border-radius:999px;">
+        <option value="en">EN</option>
+        <option value="si">සිං</option>
+        <option value="ja">日本語</option>
+      </select>
+      <button class="icon-btn" id="themeToggle" aria-label="Theme">☾</button>
+    </div>
+  </div>
+</header>
+<section class="hero">
+  <video autoplay muted loop playsinline poster="assets/img/hero-poster.svg">
+    <source src="assets/video/japanese-theme-bg.mp4" type="video/mp4">
+  </video>
+  <div class="container hero-content">
+    <div class="hero-shell">
+      <div class="hero-copy" style="padding:40px;">
+        <div class="hero-grid">
+          <div>
+            <div class="badge" data-i18n="hero_kicker">Modern Japanese Language Institute</div>
+            <h1 data-i18n="hero_title">Study in Japan with confidence.</h1>
+            <p data-i18n="hero_subtitle">A premium trilingual website for classes, student visa support, book sales, downloadable papers, and online registration.</p>
+            <div class="hero-badges">
+              <span class="tag">Sinhala</span>
+              <span class="tag">Japanese</span>
+              <span class="tag">English</span>
+              <span class="tag">Student Visa</span>
+              <span class="tag">JLPT N5 / N4</span>
+            </div>
+            <div class="hero-actions">
+              <a class="button primary" href="registration.html" data-i18n="hero_cta1">Register Online</a>
+              <a class="button secondary" href="courses.html" data-i18n="hero_cta2">View Courses</a>
+            </div>
+            <div class="stats">
+              <div class="stat">
+                <strong data-i18n="hero_stat1_v">N5 / N4</strong>
+                <span data-i18n="hero_stat1_l">Courses</span>
+              </div>
+              <div class="stat">
+                <strong data-i18n="hero_stat2_v">2 Offices</strong>
+                <span data-i18n="hero_stat2_l">Sri Lanka</span>
+              </div>
+              <div class="stat">
+                <strong data-i18n="hero_stat3_v">WhatsApp</strong>
+                <span data-i18n="hero_stat3_l">Instant Support</span>
+              </div>
+              <div class="stat">
+                <strong data-i18n="hero_stat4_v">PDFs</strong>
+                <span data-i18n="hero_stat4_l">Study Papers</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="kicker">Highlights</div>
+            <h3 data-i18n="hero_card_title">Everything in one place</h3>
+            <p data-i18n="hero_card_sub">Classes, books, visa support, and student guidance in a transparent modern layout.</p>
+            <div class="hero-tiles">
+              <div class="tile">
+                <strong>Class Book</strong>
+                <p style="margin:6px 0 0;">Rs. 2,000/=</p>
+              </div>
+              <div class="tile">
+                <strong>N5 Course Fee</strong>
+                <p style="margin:6px 0 0;">Rs. 40,000/=</p>
+              </div>
+              <div class="tile">
+                <strong>N4 Course Fee</strong>
+                <p style="margin:6px 0 0;">Rs. 50,000/=</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <div class="kicker" data-i18n="section_about_k">About Us</div>
+        <h2 data-i18n="section_about_t">Built for students who are ready for Japan.</h2>
+      </div>
+      <p data-i18n="section_about_p">Youkoso Japanese Language Institute combines structured Japanese classes, book support, student visa assistance, and a clear enrollment process for learners in Sri Lanka.</p>
+    </div>
+    <div class="grid cols-3">
+      <div class="card">
+        <div class="feature-icon">🛂</div>
+        <h3 data-i18n="feature1_t">Student Visa Guidance</h3>
+        <p data-i18n="feature1_p">Support for paperwork, counselling, and next-step planning.</p>
+      </div>
+      <div class="card">
+        <div class="feature-icon">📚</div>
+        <h3 data-i18n="feature2_t">Japanese Classes</h3>
+        <p data-i18n="feature2_p">N5 and N4 programs designed for beginners and progressing students.</p>
+      </div>
+      <div class="card">
+        <div class="feature-icon">📝</div>
+        <h3 data-i18n="feature3_t">Books & Materials</h3>
+        <p data-i18n="feature3_p">Class book available for Rs. 2,000 with guided study support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <div class="kicker">Programs</div>
+        <h2>Courses and fees</h2>
+      </div>
+      <p>Transparent pricing for class fees and materials with a clean modern design.</p>
+    </div>
+    <div class="grid cols-3">
+      <div class="card">
+        <div class="badge">Beginner</div>
+        <h3>N5 Course</h3>
+        <div class="price">Rs. 40,000/=</div>
+        <ul class="list">
+          <li>Grammar, vocabulary, reading, writing</li>
+          <li>Speaking practice and weekly revision</li>
+          <li>Visa pathway guidance included</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="badge">Intermediate</div>
+        <h3>N4 Course</h3>
+        <div class="price">Rs. 50,000/=</div>
+        <ul class="list">
+          <li>Advanced grammar and listening</li>
+          <li>Exam-focused practice modules</li>
+          <li>Student support and counselling</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="badge">Materials</div>
+        <h3>Class Book</h3>
+        <div class="price">Rs. 2,000/=</div>
+        <ul class="list">
+          <li>Structured lessons and exercises</li>
+          <li>Ideal for self-study and class work</li>
+          <li>Available at both offices</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <div>
+        <div class="kicker" data-i18n="office_title">Our Offices</div>
+        <h2>Visit or call us</h2>
+      </div>
+      <p>Two convenient locations with direct mobile and email contact details.</p>
+    </div>
+    <div class="grid cols-2">
+      <div class="card office">
+        <div class="badge">Raddolugama</div>
+        <h3>Raddolugama Office</h3>
+        <p><strong>Mobile:</strong> 071 299 7429 / 075 982 8714<br><strong>Email:</strong> youkoso.japanese@gmail.com<br><strong>Address:</strong> No. 4B/53R, NHS, Raddolugama, Sri Lanka, 11400</p>
+        <a class="button secondary" href="https://maps.app.goo.gl/Yg8WSuSAfGSwzE2Z8" target="_blank" rel="noopener">Open Location</a>
+      </div>
+      <div class="card office">
+        <div class="badge">Panadura</div>
+        <h3>Panadura Office</h3>
+        <p><strong>Mobile:</strong> 071 668 1437 / 078 437 3925<br><strong>Email:</strong> Orayaneducation@gmail.com<br><strong>Address:</strong> Near the Sumangala Girls School, Nalluruwa, Panadura, Sri Lanka, 12500</p>
+        <a class="button secondary" href="https://maps.app.goo.gl/T2FZ7kBbj8MLXUzt5" target="_blank" rel="noopener">Open Map</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="container">
+    <div class="card">
+      <div class="grid cols-2" style="align-items:center;">
+        <div>
+          <div class="kicker">Social Media</div>
+          <h2>Stay connected</h2>
+          <p>Use the links below to keep your audience updated with classes and admissions.</p>
+        </div>
+        <div class="social-links">
+          <a href="https://web.facebook.com/profile.php?id=61586214173883" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.tiktok.com/@youkoso.japaneselanguage?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://www.instagram.com/youkoso.japanese?igsh=eGxuYTF6Z2pjYWdw&utm_source=qr" target="_blank" rel="noopener">Instagram</a>
+          <a href="registration.html">Online Registration</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="panel">
+      <div class="grid cols-2" style="align-items:start;">
+        <div>
+          <div class="kicker">Youkoso</div>
+          <h3 style="margin-top:8px;">Japanese Language Institute</h3>
+          </div>
+        <div>
+          <p><strong>Raddolugama Office</strong><br>Mobile: 071 299 7429 / 075 982 8714<br>Email: youkoso.japanese@gmail.com</p>
+          <p><strong>Panadura Office</strong><br>Mobile: 071 668 1437 / 078 437 3925<br>Email: Orayaneducation@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<a class="floating-wa" href="https://wa.me/94712997429?text=Hello%20Youkoso%20Japanese%20Language%20Institute%2C%20I%20want%20to%20know%20about%20the%20classes%20and%20student%20visa." target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+<div id="toast" class="toast"></div>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

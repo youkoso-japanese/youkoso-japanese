@@ -1,0 +1,128 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <title>Registration - Youkoso Japanese Language Institute</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="dark" data-page="register">
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Youkoso home">
+      <img src="assets/img/logo-placeholder.svg" alt="Youkoso logo">
+      <div>
+        <strong>YOUKOSO</strong>
+        <span>Japanese Language Institute</span>
+      </div>
+    </a>
+    <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
+      <a href="courses.html" data-nav="courses" data-i18n="nav_courses">Courses</a>
+      <a href="gallery.html" data-nav="gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="papers.html" data-nav="papers" data-i18n="nav_papers">Papers</a>
+      <a href="registration.html" data-nav="register" data-i18n="nav_register">Registration</a>
+      <a href="admin.html" data-nav="admin" data-i18n="nav_admin">Admin</a>
+    </nav>
+    <div class="nav-actions">
+      <select id="langPicker" class="icon-btn" style="width:auto;padding:0 12px;border-radius:999px;">
+        <option value="en">EN</option>
+        <option value="si">සිං</option>
+        <option value="ja">日本語</option>
+      </select>
+      <button class="icon-btn" id="themeToggle" aria-label="Theme">☾</button>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div class="page-header">
+    <div class="crumb">Home / Registration</div>
+    <h1>Registration</h1>
+    <p>Collect student details online for classes and student visa applications.</p>
+  </div>
+
+  <div class="form-shell">
+    <div class="tabs">
+      <button class="tab active" data-target="panelRegistration" type="button" data-i18n="reg_title">Online Registration</button>
+      <button class="tab" data-target="panelVisa" type="button" data-i18n="visa_title">Student Visa Application</button>
+    </div>
+
+    <div id="panelRegistration" class="tab-panel">
+      <form data-store="registration">
+        <div class="form-grid">
+          <div class="field"><label>Full Name</label><input name="fullName" required placeholder="Student name"></div>
+          <div class="field"><label>Mobile</label><input name="phone" required placeholder="071 000 0000"></div>
+          <div class="field"><label>Email</label><input name="email" type="email" placeholder="student@example.com"></div>
+          <div class="field"><label>Office</label>
+            <select name="office">
+              <option>Raddolugama</option>
+              <option>Panadura</option>
+            </select>
+          </div>
+          <div class="field"><label>Course</label>
+            <select name="course">
+              <option>N5</option>
+              <option>N4</option>
+              <option>Student Visa Support</option>
+            </select>
+          </div>
+          <div class="field"><label>Preferred Batch</label><input name="batch" placeholder="Weekday / Weekend"></div>
+        </div>
+        <div class="field" style="margin-top:14px;"><label>Message</label><textarea name="message" placeholder="Tell us your goal"></textarea></div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
+          <button class="button primary" type="submit">Submit Registration</button>
+          <a class="button secondary" href="https://wa.me/94712997429" target="_blank" rel="noopener">WhatsApp Support</a>
+        </div>
+      </form>
+    </div>
+
+    <div id="panelVisa" class="tab-panel" hidden>
+      <form data-store="visa">
+        <div class="form-grid">
+          <div class="field"><label>Applicant Name</label><input name="name" required></div>
+          <div class="field"><label>Passport No.</label><input name="passport" required></div>
+          <div class="field"><label>Country of Interest</label><input name="country" value="Japan"></div>
+          <div class="field"><label>Office</label>
+            <select name="office">
+              <option>Raddolugama</option>
+              <option>Panadura</option>
+            </select>
+          </div>
+          <div class="field"><label>Phone</label><input name="mobile" required></div>
+          <div class="field"><label>Guardian Phone</label><input name="guardianPhone"></div>
+        </div>
+        <div class="field" style="margin-top:14px;"><label>Documents / Notes</label><textarea name="notes" placeholder="Mention documents you already have"></textarea></div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;">
+          <button class="button primary" type="submit">Submit Visa Application</button>
+          <a class="button secondary" href="assets/papers/student-visa-checklist.pdf" download>Download Checklist</a>
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="panel">
+      <div class="grid cols-2" style="align-items:start;">
+        <div>
+          <div class="kicker">Youkoso</div>
+          <h3 style="margin-top:8px;">Japanese Language Institute</h3>
+          <p data-i18n="footer_note">This website is a modern front-end template. Connect the forms to your backend or Google Sheets when ready.</p>
+        </div>
+        <div>
+          <p><strong>Raddolugama Office</strong><br>Mobile: 071 299 7429 / 075 982 8714<br>Email: youkoso.japanese@gmail.com</p>
+          <p><strong>Panadura Office</strong><br>Mobile: 071 668 1437 / 078 437 3925<br>Email: Orayaneducation@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<a class="floating-wa" href="https://wa.me/94712997429?text=Hello%20Youkoso%20Japanese%20Language%20Institute%2C%20I%20want%20to%20know%20about%20the%20classes%20and%20student%20visa." target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+<div id="toast" class="toast"></div>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

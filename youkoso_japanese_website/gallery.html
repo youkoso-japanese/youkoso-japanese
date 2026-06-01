@@ -1,0 +1,129 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <title>Gallery - Youkoso Japanese Language Institute</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="dark" data-page="gallery">
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Youkoso home">
+      <img src="assets/img/logo-placeholder.svg" alt="Youkoso logo">
+      <div>
+        <strong>YOUKOSO</strong>
+        <span>Japanese Language Institute</span>
+      </div>
+    </a>
+    <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
+      <a href="courses.html" data-nav="courses" data-i18n="nav_courses">Courses</a>
+      <a href="gallery.html" data-nav="gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="papers.html" data-nav="papers" data-i18n="nav_papers">Papers</a>
+      <a href="registration.html" data-nav="register" data-i18n="nav_register">Registration</a>
+      <a href="admin.html" data-nav="admin" data-i18n="nav_admin">Admin</a>
+    </nav>
+    <div class="nav-actions">
+      <select id="langPicker" class="icon-btn" style="width:auto;padding:0 12px;border-radius:999px;">
+        <option value="en">EN</option>
+        <option value="si">සිං</option>
+        <option value="ja">日本語</option>
+      </select>
+      <button class="icon-btn" id="themeToggle" aria-label="Theme">☾</button>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div class="page-header">
+    <div class="crumb">Home / Gallery</div>
+    <h1>Gallery</h1>
+    <p>Japanese-style student visuals with a clean and modern presentation.</p>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active filter-btn" data-filter="all" data-i18n="gallery_filter_all">All</button>
+    <button class="tab filter-btn" data-filter="girls" data-i18n="gallery_filter_girls">Girls</button>
+    <button class="tab filter-btn" data-filter="boys" data-i18n="gallery_filter_boys">Boys</button>
+    <button class="tab filter-btn" data-filter="campus" data-i18n="gallery_filter_campus">Campus</button>
+    <button class="tab filter-btn" data-filter="classroom" data-i18n="gallery_filter_class">Classroom</button>
+  </div>
+
+  <div class="grid gallery-grid">
+    <div class="card gallery-item" data-category="girls">
+      <img src="assets/img/gallery-03.svg" alt="Student life 1">
+      <div class="gallery-meta">
+        <div class="badge">Girls</div>
+        <h3>Visa Ready</h3>
+        <p>Elegant student visuals for promotion and social media posts.</p>
+      </div>
+    </div>
+    <div class="card gallery-item" data-category="boys">
+      <img src="assets/img/gallery-02.svg" alt="Student life 2">
+      <div class="gallery-meta">
+        <div class="badge">Boys</div>
+        <h3>Study Abroad</h3>
+        <p>Modern student-style card design with a Japan-inspired background.</p>
+      </div>
+    </div>
+    <div class="card gallery-item" data-category="classroom">
+      <img src="assets/img/gallery-01.svg" alt="Student life 3">
+      <div class="gallery-meta">
+        <div class="badge">Classroom</div>
+        <h3>N5 Class</h3>
+        <p>Perfect for displaying class photos and batch announcements.</p>
+      </div>
+    </div>
+    <div class="card gallery-item" data-category="boys">
+      <img src="assets/img/gallery-04.svg" alt="Student life 4">
+      <div class="gallery-meta">
+        <div class="badge">Boys</div>
+        <h3>JLPT Prep</h3>
+        <p>Styled to match your social banners and website sections.</p>
+      </div>
+    </div>
+    <div class="card gallery-item" data-category="girls">
+      <img src="assets/img/gallery-05.svg" alt="Student life 5">
+      <div class="gallery-meta">
+        <div class="badge">Girls</div>
+        <h3>Classroom</h3>
+        <p>Transparent modern cards with clean spacing and bright contrast.</p>
+      </div>
+    </div>
+    <div class="card gallery-item" data-category="campus">
+      <img src="assets/img/gallery-06.svg" alt="Student life 6">
+      <div class="gallery-meta">
+        <div class="badge">Campus</div>
+        <h3>Campus Life</h3>
+        <p>Use this area to replace placeholders with real student photos anytime.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="panel">
+      <div class="grid cols-2" style="align-items:start;">
+        <div>
+          <div class="kicker">Youkoso</div>
+          <h3 style="margin-top:8px;">Japanese Language Institute</h3>
+        </div>
+        <div>
+          <p><strong>Raddolugama Office</strong><br>Mobile: 071 299 7429 / 075 982 8714<br>Email: youkoso.japanese@gmail.com</p>
+          <p><strong>Panadura Office</strong><br>Mobile: 071 668 1437 / 078 437 3925<br>Email: Orayaneducation@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<a class="floating-wa" href="https://wa.me/94712997429?text=Hello%20Youkoso%20Japanese%20Language%20Institute%2C%20I%20want%20to%20know%20about%20the%20classes%20and%20student%20visa." target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+<div id="toast" class="toast"></div>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

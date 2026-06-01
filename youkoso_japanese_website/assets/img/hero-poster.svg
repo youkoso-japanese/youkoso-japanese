@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#183b76"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="72%" cy="18%" r="35%">
+      <stop offset="0%" stop-color="#fef3c7" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#fb7185" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1200" cy="180" r="240" fill="url(#sun)"/>
+  <path d="M0 660 C300 560 500 730 780 640 C1020 560 1230 560 1600 650 L1600 900 L0 900 Z" fill="#ffffff" opacity="0.08"/>
+  <path d="M0 710 C320 640 520 790 820 710 C1090 640 1320 690 1600 730 L1600 900 L0 900 Z" fill="#ffffff" opacity="0.05"/>
+  <rect x="160" y="120" width="580" height="250" rx="30" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.22)"/>
+  <text x="215" y="220" font-family="Arial" font-size="54" font-weight="700" fill="white">YOUKOSO</text>
+  <text x="215" y="278" font-family="Arial" font-size="30" fill="rgba(255,255,255,0.92)">Japanese Language Institute</text>
+  <text x="215" y="324" font-family="Arial" font-size="20" fill="rgba(255,255,255,0.82)">Student Visa • Classes • Books • Papers</text>
+</svg>
